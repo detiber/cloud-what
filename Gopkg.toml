@@ -1,0 +1,12 @@
+# Gopkg.toml
+[prune]
+  go-tests = true
+  unused-packages = true
+
+[[constraint]]
+  name = "github.com/spf13/cobra"
+  version = "0.0.1"
+
+[[constraint]]
+  name = "github.com/sirupsen/logrus"
+  version = "v1.0.4"
